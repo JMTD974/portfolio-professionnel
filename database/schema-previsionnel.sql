@@ -1,0 +1,11 @@
+-- Base de données de travail
+CREATE DATABASE IF NOT EXISTS portfolio_dev;
+
+-- Table de test
+CREATE TABLE test_messages (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nom VARCHAR(100) NOT NULL,
+  email VARCHAR(150) NOT NULL,
+  message TEXT NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
