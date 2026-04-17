@@ -82,3 +82,30 @@ Structure initiale créée dans `backend/` :
 
 PHP installé et fonctionnel en ligne de commande.
 Composer installé et relié à PHP.
+
+## Base de données
+
+MySQL installé et configuré localement.
+
+Base créée :
+
+- `portfolio_dev`
+
+Table de test créée :
+
+- `test_messages`
+
+Test effectué :
+
+- insertion d’un premier message
+- lecture des données avec `SELECT * FROM test_messages`
+
+## Docker
+
+Structure initiale créée dans `docker/` :
+
+- README-docker.md
+- docker-compose.yml
+
+Docker Desktop est installé et fonctionnel.
+Test `hello-world` validé.
