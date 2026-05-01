@@ -35,3 +35,20 @@ a:hover {
   width: min(100% - 40px, 1100px);
   margin-inline: auto;
 }
+#skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+#skills li {
+  margin-bottom: 12px;
+  background-color: #0f172a;
+  border: 1px solid #374151;
+  padding: 12px;
+  border-radius: 8px;
+}
+#skills ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(120px, 1fr));
+  gap: 12px;
+}
