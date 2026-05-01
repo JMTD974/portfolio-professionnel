@@ -1,0 +1,30 @@
+body {
+  background-color: #111827;
+  color: white;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+}
+
+a {
+  color: #22c55e;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.container {
+  width: min(100% - 40px, 1100px);
+  margin-inline: auto;
+}
