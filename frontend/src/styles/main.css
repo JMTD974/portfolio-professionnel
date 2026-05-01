@@ -12,12 +12,23 @@ header a:first-child { font-weight: bold; }
 nav a { margin-right: 16px; }
 nav ul { display: flex; gap: 16px; list-style: none; padding: 0; margin: 0; }
 section {
-  padding: 40px 20px;
+  padding: 64px 20px;
 }
 h2 { margin-bottom: 20px; }
 #hero { padding-top: 80px; padding-bottom: 80px; }
-
-h1,
+.hero-text {
+  color: #cbd5e1;
+  font-size: 18px;
+}
+.hero-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+h1 {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
 h2,
 h3 {
   margin-top: 0;
@@ -98,4 +109,37 @@ p {
   #skills ul {
   grid-template-columns: 1fr;
 }
+}
+.eyebrow {
+  color: #cbd5e1;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.btn {
+  display: inline-block;
+  padding: 12px 18px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.btn-primary {
+  background-color: #22c55e;
+  color: #0f172a;
+}
+
+.btn-secondary {
+  border: 1px solid #22c55e;
+}
+#skills li,
+#projects article {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+#projects article:hover {
+  transform: translateY(-4px);
+  transition: transform 0.2s ease;
+}
+.btn:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+  transition: all 0.2s ease;
 }
