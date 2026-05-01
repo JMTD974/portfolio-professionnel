@@ -71,3 +71,11 @@ button {
   font-weight: bold;
   cursor: pointer;
 }
+footer {
+  padding: 24px 20px;
+  border-top: 1px solid #374151;
+  text-align: center;
+}
+p {
+  max-width: 70ch;
+}
