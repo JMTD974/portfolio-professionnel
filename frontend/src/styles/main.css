@@ -52,3 +52,10 @@ a:hover {
   grid-template-columns: repeat(2, minmax(120px, 1fr));
   gap: 12px;
 }
+#projects-list {
+  display: grid;
+  gap: 20px;
+  border-radius: 8px;
+  background-color: #0f172a;
+}
+#projects h3 { margin-top: 0; margin-bottom: 12px; }
