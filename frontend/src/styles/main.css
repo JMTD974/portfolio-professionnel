@@ -59,3 +59,15 @@ a:hover {
   background-color: #0f172a;
 }
 #projects h3 { margin-top: 0; margin-bottom: 12px; }
+input, textarea { width: 100%; padding: 10px; }
+textarea { min-height: 120px; }
+#contact p, #contact label, #contact input, #contact textarea, #contact button { margin-bottom: 12px; display: block; }
+button {
+  background-color: #22c55e;
+  color: #0f172a;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
