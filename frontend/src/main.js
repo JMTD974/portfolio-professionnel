@@ -56,3 +56,5 @@ const secondaryButton = document.querySelector(".btn-secondary");
 secondaryButton.textContent = "Prendre contact";
 const brandName = document.querySelector(".brand");
 brandName.textContent = "David";
+const contactButton = document.querySelector("#contact button");
+contactButton.textContent = "Envoyer un message";
