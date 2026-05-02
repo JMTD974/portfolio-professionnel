@@ -16,7 +16,7 @@ const projects = [
   }
 ];
 const projectsContainer = document.querySelector("#projects-list");
-projectsList.innerHTML = projects
+projectsContainer.innerHTML = projects
   .map(
     (project) => `
       <article>
@@ -26,3 +26,11 @@ projectsList.innerHTML = projects
     `
   )
   .join("");
+  const contactEmail = document.querySelector("#contact-email");
+contactEmail.textContent = "Me joindre par email";
+contactEmail.href = "mailto:techerdavid.jm@gmail.com";
+const contactGithub = document.querySelector("#contact-github");
+contactGithub.textContent = "Voir mon GitHub";
+contactGithub.href = "https://github.com/JMTD974";
+const eyebrow = document.querySelector(".eyebrow");
+eyebrow.textContent = "Développeur web full-stack";
